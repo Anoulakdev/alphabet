@@ -54,7 +54,7 @@ export default function AlphabetPage() {
     for (let i = 0; i < 3; i++) {
       const utterance = new SpeechSynthesisUtterance(utteranceText);
       utterance.lang = "en-US";
-      utterance.rate = 0.6;
+      utterance.rate = 0.7;
       speechSynthesis.speak(utterance);
     }
   };
